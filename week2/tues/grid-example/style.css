@@ -1,0 +1,8 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 100px;
+}
+
+div {
+    border: 1px solid gold;
+}
