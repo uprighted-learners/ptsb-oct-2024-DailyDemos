@@ -1,0 +1,27 @@
+/* Default styles */
+body {
+  font-size: 16px;
+  background-color: aqua;
+}
+
+/* Styles for screens wider than 600px */
+@media screen and (min-width: 300px) {
+  body {
+    font-size: 18px;
+    background-color: red;
+  }
+}
+/* Styles for screens wider than 900px */
+@media screen and (min-width: 500px) {
+  body {
+    font-size: 20px;
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    font-size: 24px;
+    background-color: gold;
+  }
+}

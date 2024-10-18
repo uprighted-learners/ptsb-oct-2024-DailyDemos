@@ -1,0 +1,22 @@
+/*  Make sure that you flex the parent of the direct children you want to affect */
+
+.outer-container {
+  width: 500px;
+  height: 100px;
+  background-color: #ffc9c7;
+}
+
+/* div{
+  margin-top: 100px
+} */
+
+.vw{
+  width: 50vw;
+  background-color: blue;
+}
+
+.vh {
+  /* height: 50vh; */
+  height: 100%;
+  background-color: gold;
+}

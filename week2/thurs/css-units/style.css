@@ -1,0 +1,51 @@
+/*  Make sure that you flex the parent of the direct children you want to affect */
+
+body {
+  font-size: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.outer-container {
+  width: 500px;
+  background-color: #ffc9c7;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.pixel div {
+  border: 1px solid gray;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: blue;
+}
+
+.percentage div {
+  border: 1px solid gray;
+  width: 15%;
+  height: 15%;
+  color: white;
+  background-color: blue;
+}
+
+.rem div {
+  border: 1px solid gray;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  background-color: blue;
+}
