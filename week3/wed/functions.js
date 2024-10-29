@@ -34,3 +34,12 @@ getTemperature()
 
 console.log(getTemperature);
 console.log(getTemperature())
+
+
+//definition
+function add(x, y){
+  return x + y;
+}
+
+//call
+add(1,2)
