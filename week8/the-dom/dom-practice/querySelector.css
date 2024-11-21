@@ -1,0 +1,8 @@
+body {
+  background-color: goldenrod;
+}
+
+/* copy from your css to grab the selector */
+div > ul > li {
+  color: blue;
+}
