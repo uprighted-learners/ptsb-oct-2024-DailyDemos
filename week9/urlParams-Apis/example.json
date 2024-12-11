@@ -1,0 +1,19 @@
+// Object with quoted keys
+{
+    "wheelCount": 4,
+    "color": "blue",
+    "AWD": true,
+    "yearsForModel": [2006,2007,2008],
+    "engine": {
+        "hp": 200
+    }
+}
+
+// or
+
+"can just be a string"
+
+
+// or
+
+[200,100,3002,5023]
