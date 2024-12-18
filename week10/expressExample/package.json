@@ -1,0 +1,16 @@
+{
+  "name": "expressexample",
+  "version": "1.0.0",
+  "description": "My first express application/API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "type":"module"
+}
