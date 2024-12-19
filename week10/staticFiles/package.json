@@ -1,0 +1,15 @@
+{
+  "name": "staticfiles",
+  "version": "1.0.0",
+  "description": "1. create a folder\r 2. create a gitignore file (only if going into source control)\r 3. \r ```\r npm init -y\r ```\r 4.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
