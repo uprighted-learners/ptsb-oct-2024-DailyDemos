@@ -1,10 +1,12 @@
 const { MongoClient } = require("mongodb");
 const express = require("express");
+const dotenv = require("dotenv");
+dotenv.config();
 const app = express();
 
 app.use(express.json());
 
-const DB_URL = "mongodb://localhost:27017";
+const DB_URL = process.env.DB_CONNECTION;
 // new mongo client
 const client = new MongoClient(DB_URL);
 
