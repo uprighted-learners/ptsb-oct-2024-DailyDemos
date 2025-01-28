@@ -3,13 +3,23 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./Header";
+import FruitList from "./Fruitlist";
+import LoginExample from "./LoginExample";
+import StarwarsCharacters from "./StarWarsCharacters";
 
 function App() {
   const [count, setCount] = useState(0);
+  //useState returns
+  // [ variable, function]
+
+  // we are then assigning it to count, setCount
 
   return (
     <>
-      <Header text="Hello World" />
+      <StarwarsCharacters />
+      <LoginExample />
+      {/* <FruitList />
+      <Header text="Hello World" propertytwo={2} /> */}
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

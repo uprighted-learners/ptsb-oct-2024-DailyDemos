@@ -1,6 +1,6 @@
 // function
 // define props if needed in parenthesis
-function Header({ text }) {
+function Header({ text, propertytwo }) {
   // add JSX to your function
   return (
     // add a fragment as a wrapper
@@ -11,6 +11,7 @@ function Header({ text }) {
 
         {/* prop example */}
         {text}
+        {propertytwo}
 
         {/* Add in a prop that is an array of link/title */}
         {/* map over them to display all of the links in the nav */}
